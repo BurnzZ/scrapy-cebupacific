@@ -17,8 +17,6 @@ class SeatSaleSpider(scrapy.Spider):
 
         self.allowed_origins = self._get_origins(origins) or []
 
-        self.allowed_origins = ['Manila']
-
     def start_requests(self):
         for url in self.start_urls:
             yield scrapy.Request(url=url, callback=self.parse)

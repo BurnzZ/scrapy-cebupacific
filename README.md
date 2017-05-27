@@ -7,5 +7,5 @@ This is intended to regularly poll the CebuPacific [seat-sale-table](https://www
 
 ##### Usage:
 ```
-scrapy crawl seat-sale -a origins=Manila,Cagayan De Oro
+scrapy crawl seat-sale -a origins="Manila,Cagayan De Oro"
 ```  

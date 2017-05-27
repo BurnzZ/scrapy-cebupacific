@@ -44,6 +44,4 @@ class ExtractDestinationsPipeline(object):
 
         item['destinations'] = destinations
 
-        print(item)
-
         return item
